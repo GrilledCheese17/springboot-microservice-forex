@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SpringBootMicroserviceForexServiceApplication {
+public class SpringBootMicroserviceForexServiceApplication throws IOException {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMicroserviceForexServiceApplication.class, args);
